@@ -111,7 +111,7 @@ def main():
     data_dir =base_path+'/train_test_split/train/'
     data_dir_test =base_path+'/train_test_split/test/'
 
-    data_dir_user_evaluation ='E:/Medical Imaging Diagnostic (MID) Lab/XAI in MID/Paper submission/Version_2_Elsevier_KBS_format/Revision 1/user evaluation/images for comparison/'
+    data_dir_user_evaluation ='E:/Medical Imaging Diagnostic (MID) Lab/XAI in MID/Paper submission/Paper 1/Version_2_Elsevier_KBS_format/Revision 1/user evaluation/images for comparison/'
 
     label_map = np.loadtxt(fname=base_path + '/classes.txt',dtype='str')
     label_map = label_map[:,1].tolist()
